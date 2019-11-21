@@ -1,0 +1,256 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage[locale=DE]{siunitx}
+\usepackage{float}
+\usepackage[nottoc,numbib]{tocbibind}
+\newcommand{\RM}[1]{\MakeUppercase{\romannumeral #1}}
+
+
+\usepackage{longtable}
+
+\usepackage{bibgerm}
+
+\usepackage{footnpag}
+
+\usepackage{ifthen}
+
+\usepackage{graphicx}
+
+\usepackage{here}
+
+\usepackage{amsmath}
+
+\usepackage{amsxtra}
+
+\usepackage{amsfonts}
+
+\usepackage{amssymb}
+
+\usepackage{url}
+
+%Für Testzwecke aktivieren, zeigt labels und refs im Text an.
+
+%\usepackage{showkeys}
+
+% Abstand zwischen zwei Absätzen nach DIN (1,5 Zeilen)
+
+\setlength{\parskip}{1.5ex plus0.5ex minus0.5ex}
+
+% Einrückung am Anfang eines neuen Absatzes nach DIN (keine)
+
+\setlength{\parindent}{0pt}
+
+% Ränder definieren
+
+\setlength{\oddsidemargin}{0.3cm}
+
+\setlength{\textwidth}{15.6cm}
+
+% bessere Bildunterschriften
+
+\usepackage[center]{caption2}
+
+% Problemlösungen beim Umgang mit Gleitumgebungen
+
+\usepackage{float}
+
+% Nummeriert bis zur Strukturstufe 3 (also <section>, <subsection> und <subsubsection>)
+
+\setcounter{secnumdepth}{3}
+
+% Führt das Inhaltsverzeichnis bis zur Strukturstufe 3
+
+\setcounter{tocdepth}{3}
+
+\usepackage{exscale}
+
+
+
+
+
+% führt mit \vv zu längenangepassten vektorpfeilen
+
+\usepackage{esvect}
+
+%Ergibt eine nummerierte Aufzählung bei enumerate
+
+%\begin{compactenum}[(i)] führt zu (i), (ii), (iii), (iv), ...
+
+%\begin{compactenum}[(I)] führt zu (I), (II), (III), (IV), ...
+
+%\begin{compactenum}[a)] führt zu a), b), c), d), ...
+
+\usepackage{paralist}
+
+
+\newenvironment{dsm} {\begin{displaymath}} {\end{displaymath}}
+
+\newenvironment{vars} {\begin{center}\scriptsize} {\normalsize \end{center}}
+
+\newcommand {\en} {\varepsilon_0} % Epsilon-Null aus der Elektrodynamik
+
+\newcommand {\lap} {\; \mathbf{\Delta}} % Laplace-Operator
+
+\newcommand {\R} { \mathbb{R} } % Menge der reellen Zahlen
+
+\newcommand {\e} { \ \mathbf{e} } % Eulersche Zahl
+
+\renewcommand {\i} { \mathbf{i} } % komplexe Zahl i
+
+\newcommand {\N} { \mathbb{N} } % Menge der nat. Zahlen
+
+\newcommand {\C} { \mathbb{C} } % Menge der kompl. Zahlen
+
+\newcommand {\Z} { \mathbb{Z} } % Menge der kompl. Zahlen
+
+\newcommand {\limi}[1]{\lim_{#1 \rightarrow \infty}} % Limes unendlich
+
+\newcommand {\sumi}[1]{\sum_{#1=0}^\infty}
+
+\newcommand {\rot} {\; \mathrm{rot} \,} % Rotation
+
+\newcommand {\grad} {\; \mathrm{grad} \,} % Gradient
+
+\newcommand {\dive} {\; \mathrm{div} \,} % Divergenz
+
+\newcommand {\dx} {\; \mathrm{d} } % Differential d
+
+\newcommand {\cotanh} {\; \mathrm{cotanh} \,} %Cotangenshyperbolicus
+
+\newcommand {\asinh} {\; \mathrm{areasinh} \,} %Area-Sinus-Hyp.
+
+\newcommand {\acosh} {\; \mathrm{areacosh} \,} %Area-Cosinus-H.
+
+\newcommand {\atanh} {\; \mathrm{areatanh} \,} %Area Tangens-H.
+
+\newcommand {\acoth} {\; \mathrm{areacoth} \,} % Area-cotangens
+
+\newcommand {\Sp} {\; \mathrm{Sp} \,}
+
+\newcommand {\mbe} {\stackrel{\text{!}}{=}} %Must Be Equal
+
+\newcommand{\qed} { \hfll $\square$\\}
+
+\renewcommand{\i} {\imath}
+
+\newcommand{\ham}{\mathcal{H}}
+
+\newcommand{\lag}{\mathcal{L}}
+
+\def\captionsngerman{\def\figurename{\textbf{Abb.}}}
+
+\renewcommand{\dagger}{**}
+
+\renewcommand{\contentsname}{Inhaltsverzeichnis}
+
+\renewcommand{\figurename}{Abbildung}
+
+\renewcommand{\tablename}{Tabelle}
+
+%\scriptsize \Large
+
+\begin{document}
+	\scriptsize \normalsize
+	\title{ Tomographie mittels $\gamma$-Strahlung  \\ Versuch 14}
+	
+
+	
+	\author{Polina Stecher\\ {polina.stecher@tu-dortmund.de}  \and   Ramona Gabrie\\ {sonya.djuffouo@tu-dortmund.de}} %{polina.stecher@tu-dortmund.de  sonya.djuffouo@tu-dortmund.de} 
+	\date{Durchgeführt am  19. Juni  2018}
+		\maketitle
+	\newpage
+	\tableofcontents
+	\thispagestyle{empty}
+	\newpage
+	\newpage
+	
+\section{Zielsetzung und Motivation}
+Ziel des Versuches ist es, die spezifische Molwärme von Kupfer in Abhängigkeit der Temperatur zu untersuchen. Die Molwärme C ist die Menge der Wärme, die benötigt wird um ein 1 Mol eines Stoffes um 1 K zu erhitzen. Die  allgemeine Formel  lautet 
+\begin{align}
+C=\dfrac{\delta Q}{\delta T}
+\end{align} 
+Außerdem ist zu berücksichtigen, unter welchen Bedingungen die Wärme zu-oder abgeführt wird. Dabei wird unterschieden zwischen der Molwärme bei konstantem Volumen $C_V$ und der Molwärme bei konstantem Druck $C_p$. In diesem Versuch wird die Molwärme $C_p$ bei konstantem Druck gemessen. Die Messung beim konstanten Volumen würde enorme Drücke benötigen, um die thermische Ausdehnung der Proben zu verhindern. Die Molwärme bei konstantem Volumen wird anschließend über die Korrekturformel $C_V=C_P-9\alpha^2\kappa V_0T$ berechnet. Desweiteren wird aus den gewonnenen Ergebnissen die sogenannte Debye-Temperatur  $\Theta_D$ bestimmt und mit dem theoretischen Ansatz verglichen. Die Debye-Temperatur ist eine materialspezifische Größe und hängt mir der Phononenfrequenz in einem Material zusammen. Unterhalb dieser Temperatur machen sich bei der spezifischen Wärme Quanteneffekte (Einfrieren von Freiheitsgraden) bemerkbar. Für Temperaturen oberhalb der Debye-Temperatur sind alle Eigenschwingungszustände besetzt. Insgesamt werden drei Modelle untersucht, die die Abhängigkeit der Molwärme von der Temperatur beschreiben. Diese Modelle wurden nacheinander entwickelt und bauen aufeinander auf.
+Da die Theorien im Laufe der Zeit stets an die experimentellen Befunde angepasst wurden, sind sie als nicht gleichwertig zu betrachten. 
+
+ 
+
+\section{Theorie} 
+\subsection{Die klassische Theorie der Molwärme}
+Die klassische Betrachtung besagt, dass die thermische Energie, die in einen Körper eingebracht wird, sich gleichmäßig auf die Freiheitsgrade der Atome des Festkörpers verteilt. Die Atome sind durch Gitterkräfte an feste Plätze gebunden und können in drei Richtungen schwingen und haben somit drei Freiheitsgrade. Die Atome führen eine harmonische Schwingung um ihre Ruhelage aus und haben somit eine mittlere kinetische Energie, die mit der mittleren potentiellen Energie identisch ist. Pro Freiheitsgrad besitzt jedes Atom die Energie $\dfrac{1}{2}k_BT$. Sowohl die mittlere kinetische als auch die mittlere potentielle Energie beträgt $3\dfrac{1}{2}k_BT$. Die Summe der beiden Energien beträgt 
+\begin{align}
+E=6\dfrac{1}{2}k_BT
+\end{align}
+mit der Boltzmann-Konstante $k_B$  und der Temperatur T. In einem Kristall betrachtet, ergibt sich daraus mit der Loschmidt-Konstante $N_L$ (Teilchendichte eines idealen Gases)
+\begin{align}
+E=3k_bN_LT.
+\end{align}
+
+Unter Vorraussetzung eines konstanten Volumens folgt für die spezifische Wärmekapazität
+\begin{align}
+C_V=\left(\dfrac{\delta E}{\delta T}\right)_V=3R.
+\end{align}
+Somit ist die spezifische Molwärme nach der Gleichung (3) material-und temperaturunabhängig. In der Realität trifft diese Annahme nur für hohe Temperaturen ($T\gg\Theta_D$) zu. Bei niedrigen Temperaturen kommt es zu einer sehr starken Abweichung. Zusätzlich zeigt sich in den Messungen, dass die Molwärme materialabhängig ist, was mit der klassischen Theorie nicht übereinstimmt. Die klassische Theorie ist deshalb unzureichend, weil die Quantenmechanik nicht berücksichtigt wird.
+\subsection{Die Einstein-Theorie}
+Im Einsteinschen-Modell wird im Gegensatz zur klassischen Theorie die Quantelung der Schwingungsenergie der Atome berücksichtigt. Dabei wird angenommen, dass alle Atome im Festkörper jeweils mit der gleichen Frequenz $\omega_E$ schwingen und nur Energien von ganzzahligen Vielfachen des Wertes $\hbar\omega$ aufnehmem bzw. abgeben. Mittels der Boltzmannschen Wahrscheinlichkeitsverteilung 
+\begin{align}
+W(n)=exp\left(\dfrac{-n\hbar \omega_E}{k_BT}\right)
+\end{align}
+wird die Wahrscheinlichkeit eines sich im thermischen Gleichgewicht befindenen Oszillators mit der Energie $n\hbar\omega$ bei einer Temperatur $T$ angegeben. Anschließend wird über alle Energien $n \hbar \omega$ von $n=0$ bis $\infty$ summiert, mit der Wahrscheinlichkeit $W(n)$ ihres Auftretens multipliziert und das Ergebnis durch die Summe aller $W(n)$ geteilt. Daraus ergibt sich die Einstein-Energie
+\begin{align}
+E_{Einstein}=\dfrac{\hbar\omega_E}{e^{\dfrac{\hbar \omega_E}{k_BT}}-1}.
+\end{align}
+Die Molwärme berechnet sich somit zu 
+\begin{align}
+C_V=3R\left(\dfrac{\hbar\omega_E}{k_B}\right)^2 \dfrac{1}{T^2} \dfrac{exp\left(\dfrac{\hbar\omega_E}{k_BT}\right)}{\left(exp\left(\dfrac{\hbar \omega_E }{k_BT}\right)-1\right)^2}
+\end{align}
+mit der Einstein-Temperatur $\Theta_E=\dfrac{\hbar \omega_E}{k_BT}$, die mit der Einstein Frequenz zusammenhängt. Auch bei diesem Modell gilt eine Annäherung an 3R bei sehr hohen Temperaturen. Bei einer Abnahme der Temperatur nimmt die Molwärme ebenfalls ab. Für tiefe Temperaturen zeigt sich, dass der Verlauf der speziellen Molwärme mit der Temperatur exponentiell zunimmt. Auch in diesem Modell tritt für tiefe Temperaturen eine Abweichung zu experimentellen Werten auf aufgrund der Annahme, dass alle Atome mit gleicher Frequenz schwingen. 
+\subsection{Debye-Modell}
+Eine bessere Annäherung an die  experimentellen Messwerte bietet das Debye-Modell.
+Das Modell basiert darauf, dass die Eigenschwingungen aller Oszillatoren in einem Festkörper eine spektrale Frequenzverteilung $Z(\omega)$ mit der  Grenzfrequenz $\omega_D$ besitzt. Ein Kristall besitzt aufgrund endlicher Dimension nur endlich viele Eigenschwingungen. Diese beträgt $ 3 N_L$ , wobei $N_L$ die Loschmidt-Konstante ist und die Anzahl der Moleküle pro Volumen eines idealen Gases angibt. Daher existiert eine Grenzfrequenz $\omega_D$, die auch Debye-Frequenz genannt wird und über die Formel 
+\begin{align}
+\int_{0}^{\omega_D}Z(\omega)d\omega=3N_L
+\end{align}
+berechnet wird. Bis zur dieser Grenzfrequenz ist die lineare Dispersionsrelation (Frequenz und Wellenvektor proportional) gegeben. Durch Verknüpfen der klassischen und des quantenmechanischen Modells, ergibt sich eine Näherung mit der Form für die spektrale Dichte der Eigenschwingungen
+\begin{align}
+Z(\omega)d\omega=\dfrac{L^3}{2\pi^2}\omega^2\left(\dfrac{1}{v_{long}^3}+\dfrac{2}{v_{trans}^3}\right)d\omega.
+\end{align}
+Dabei wird angenommen, dass die Phasengeschwindigkeit einer elastischen Welle nicht von ihrer Frequenz und ihrer Ausbreitungsrichtung abhängt. Sodass $Z(\omega)$ sich bestimmen lässt durch Abzählen der Eigenschwingungen in einem Würfel mit Kantenlänte $L$. Außerdem wird berücksichtigt, dass die Phasengeschwindigkeiten $v_{long}$ und $v_{trans}$ für Longitudinal- und Transversalwellen verschieden sind.
+Mit der Debye-Grenzfrequenz wird diese Gleichung zu 
+\begin{equation}
+Z(\omega)d\omega=\dfrac{9N_L}{\omega_D^3}\omega^2 d\omega.
+\end{equation}
+Die freie Schwingungsenergie berechnet sich, in dem das Integral über alle Schwingungsmoden gebildet wird und durch die mittlere Energie einer Gitterschwingung geteilt wird. Es gilt: 
+ \begin{equation}
+U=\int_{0}^{\omega_D}\dfrac{Z(\omega)d\omega}{e^{\dfrac{\hbar \omega}{k_B T}-1}}
+\end{equation}
+
+Die Wärmekapazität $C_v$ ergibt sich durch Ausführung des Integrals und der Differentiation nach der Temperatur. 
+\begin{equation}
+C_{V,Debye}=\dfrac{d}{dT}\dfrac{9N_L}{\omega_D^3}\int_{0}^{\omega_D}\dfrac{\omega^3}{exp(\hbar\omega/k_BT)-1}
+\end{equation}
+Wie bei den anderen Modellen, nähert sich auch die Debye Kurve im hohen Temperatur Bereich dem Wert $3R$ an. Und für niedrige Temperaturen ($T\rightarrow 0$) ergibt sich eine $T^3-$Abghängigkeit.
+\subsection{Vergleich der drei Modelle}
+In der Abbildung (1) werden die Verläufe der drei Modelle mit dem experimentellem Befund verglichen. Zunächst ist zu erkennen, dass für hohe Temperaturen (ab 300 K) das Einstein- und das Debye Modell sich dem Wert von 3R annähern. Für niedrige Temperaturen (0-300K) hingegen nimmt der Verlauf der speziellen Molwärme nach Einstein exponentiell mit der Temperatur zu, wohingegen es bei dem Debye-Modell eine $T^3$-Abhängikeit für tiefe Temperaturen gibt. Anhand der Abbildung lässt sich erkennen, dass das Debye-Modell sich dem experimentellen Verlauf am meisten nähert. Außerdem ist in der Abbildung der Verlauf der der Wärmekapazität in Abängigkeit der Temperatur für das freie Elektronengas abgebildet. Es erigibt sich eine lineare Abhängigkeit. Es zeigt sich, dass der Beitrag der spezifischen Wärme der Elektronen zur gesamten Wärmekapazität nur in sehr niedrigen Temperaturen($T\rightarrow 0$) eine wichtige Rolle spielt. Wohingegen für höhere Temperaturen der Beitrag nur sehr gering ist. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[height=7cm, width=10cm]{vergleich.png}
+	\caption{  Vergleich der drei Verlaufskurven der klassichen Theorie, des Einstein-Modells und des Debye-Modells$^{[2]}$}   
+	\label{fig: abb. 1}
+\end{figure} 
+\section{Versuchsaufbau und Durchführung}
+\subsection{Versuchsaufbau}
+Die Abbildung (2) zeigt die Apparatur, die zur Bestimmung der Molwärme von Kupfer verwendet wurde. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[height=10cm, width=8cm]{aufbau.png}
+	\caption{ Versuchsapparatur $^{[1]}$}   
+	\label{fig: abb. 1}
+\end{figure}
+Der Versuchsaufbau besteht aus einem Dewar-Gefäß. In dieses Gefäß wird im Laufe des Experiments flüssiges Stickstoff gefüllt. Im Inneren des Gefäßes befindet sich der Rezipient, in dem die Kupferprobe eingelagert ist. Diese Kupferprobe besitzt eine eigene Heizwicklung, welche ihrerseits von einem Kupfer-Zylinder mit Heizwicklung umgeben ist. An der Probe und dem Zylinder sind jeweils ein PT-100 Messwiderstand befestigt, der zur Bestimmung der Temperatur benötigt wird. Dessen Widerstand ist eine Funktion der Temperatur, diese lässt sich über die Gleichung $T(R)=0,00134R^2+2,296R-243,02$ bestimmen. Beim Widerstandsthermometer variiert der elektrische Widerstand eines elektrischen Leiters mit der Temperatur. Weiterhin ist der Rezipient an einer Vakuumpumpe und Heliumflasche angeschlossen ist. Der Rezipient wird während des Abkühlens der Probe mit Helium befüllt. Die Erhitzung der Probe und des Zylinders erfolgen über die verbundene Stromversorgung und Heizspannung U. 
+\subsection{Durchführung}
+Zunächst wird der Rezipient evakuiert. Somit wird verhindert, dass sich eine Eisschicht in der inneren Oberfläche des Rezipienten beim Abkühlen der Probe bildet, da sich sonst das in der Luft enthaltene Wasser gefrieren würde.  Anschließend wird Helium in den Rezipient gefüllt und mit Hilfe des flüssigen Stickstoffs im Dewar Gefäß wird die Probe auf 80 K abgekühlt. Helium eignet sich deshalb so gut, weil es eine gute thermische Leitfähigkeit besitzt, sodass die Probe optimal abgekühlt werden kann. Nach ca. einer Stunde ist die Endtemperatur erreicht und der Rezipient wird evakuiert, um den Innendruck zu veringern, damit Wärmeverluste durch die Konvektion über die Gasmoleküle beim Erhitzen der Probe vermieden werden. Anschließend wird der abgekühlten Probe elektrische Energie über die Heizwicklung zugeführt. Die Temperaturerhöhung $\Delta T$ wird über die Widerstände gemessen. Dabei soll $\Delta T$ zwischen 7$^{\circ}$ und 11$^{\circ}$ betragen. Der Kupfer-Zylinder sollte während des gesamten Versuches die gleiche Temperatur wie die Probe aufweisen, um so den Wärmeverlust aufgrund der Wärmübertragung (Konduktion) durch einen Temperaturgradienten zu verhindern. Um dies zu ermöglichen, ist der Kupfer Zylinder an eigener Stromversorgung angeschlossen, damit elektrische Energie zugeführt werden kann. Ziel der Messung ist es die Molwärme von Kupfer für verschiedene Temperaturen zwischen 80 bis 300 Kelvin zu ermitteln. Dazu wird die Probe im Zeitabstand von fünf Minuten regelmäßig  erhitzt, indem die Stromstärke erhöht wird. Dabei wird die Temperatur, die Messzeit, die Spannung und der Heizstrom bei konstantem Volumen notiert.  
+\end{document}

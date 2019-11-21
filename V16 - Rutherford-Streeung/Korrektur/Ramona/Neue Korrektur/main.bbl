@@ -1,0 +1,234 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{AmericiumZerfall}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=79cbf4340701e207be73e6800cc2c683}{%
+           family={archive.today},
+           familyi={a\bibinitperiod}}}%
+      }
+      \strng{namehash}{79cbf4340701e207be73e6800cc2c683}
+      \strng{fullhash}{79cbf4340701e207be73e6800cc2c683}
+      \strng{bibnamehash}{79cbf4340701e207be73e6800cc2c683}
+      \strng{authorbibnamehash}{79cbf4340701e207be73e6800cc2c683}
+      \strng{authornamehash}{79cbf4340701e207be73e6800cc2c683}
+      \strng{authorfullhash}{79cbf4340701e207be73e6800cc2c683}
+      \field{sortinit}{a}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Theorie Americium}
+      \field{urlday}{24}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://archive.is/f8fyZ
+      \endverb
+      \verb{url}
+      \verb http://archive.is/f8fyZ
+      \endverb
+    \endentry
+    \entry{Luftdichte}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=12630657802654764d197ee70ab3f6d1}{%
+           family={Chemie.de},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{12630657802654764d197ee70ab3f6d1}
+      \strng{fullhash}{12630657802654764d197ee70ab3f6d1}
+      \strng{bibnamehash}{12630657802654764d197ee70ab3f6d1}
+      \strng{authorbibnamehash}{12630657802654764d197ee70ab3f6d1}
+      \strng{authornamehash}{12630657802654764d197ee70ab3f6d1}
+      \strng{authorfullhash}{12630657802654764d197ee70ab3f6d1}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Luftdichte}
+      \field{urlday}{24}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.chemie.de/lexikon/Luftdichte.html
+      \endverb
+      \verb{url}
+      \verb http://www.chemie.de/lexikon/Luftdichte.html
+      \endverb
+    \endentry
+    \entry{Sauerstoff}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=12630657802654764d197ee70ab3f6d1}{%
+           family={Chemie.de},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{12630657802654764d197ee70ab3f6d1}
+      \strng{fullhash}{12630657802654764d197ee70ab3f6d1}
+      \strng{bibnamehash}{12630657802654764d197ee70ab3f6d1}
+      \strng{authorbibnamehash}{12630657802654764d197ee70ab3f6d1}
+      \strng{authornamehash}{12630657802654764d197ee70ab3f6d1}
+      \strng{authorfullhash}{12630657802654764d197ee70ab3f6d1}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sauerstoff}
+      \field{urlday}{24}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.chemie.de/lexikon/Sauerstoff.html
+      \endverb
+      \verb{url}
+      \verb http://www.chemie.de/lexikon/Sauerstoff.html
+      \endverb
+    \endentry
+    \entry{Stickstoff}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=12630657802654764d197ee70ab3f6d1}{%
+           family={Chemie.de},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{12630657802654764d197ee70ab3f6d1}
+      \strng{fullhash}{12630657802654764d197ee70ab3f6d1}
+      \strng{bibnamehash}{12630657802654764d197ee70ab3f6d1}
+      \strng{authorbibnamehash}{12630657802654764d197ee70ab3f6d1}
+      \strng{authornamehash}{12630657802654764d197ee70ab3f6d1}
+      \strng{authorfullhash}{12630657802654764d197ee70ab3f6d1}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Stickstoff}
+      \field{urlday}{24}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.chemie.de/lexikon/Stickstoff.html
+      \endverb
+      \verb{url}
+      \verb http://www.chemie.de/lexikon/Stickstoff.html
+      \endverb
+    \endentry
+    \entry{Sauerstoff0}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=c14ca11d9e7163851d6f08be85f43a79}{%
+           family={Live},
+           familyi={L\bibinitperiod},
+           given={PDG},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{c14ca11d9e7163851d6f08be85f43a79}
+      \strng{fullhash}{c14ca11d9e7163851d6f08be85f43a79}
+      \strng{bibnamehash}{c14ca11d9e7163851d6f08be85f43a79}
+      \strng{authorbibnamehash}{c14ca11d9e7163851d6f08be85f43a79}
+      \strng{authornamehash}{c14ca11d9e7163851d6f08be85f43a79}
+      \strng{authorfullhash}{c14ca11d9e7163851d6f08be85f43a79}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Atomic and nuclear properties of materials: Oxygen Gas}
+      \field{urlday}{6}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://pdg.lbl.gov/2011/AtomicNuclearProperties/HTML_PAGES/008.html
+      \endverb
+      \verb{url}
+      \verb http://pdg.lbl.gov/2011/AtomicNuclearProperties/HTML_PAGES/008.html
+      \endverb
+    \endentry
+    \entry{Stickstoff0}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=c14ca11d9e7163851d6f08be85f43a79}{%
+           family={Live},
+           familyi={L\bibinitperiod},
+           given={PDG},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{c14ca11d9e7163851d6f08be85f43a79}
+      \strng{fullhash}{c14ca11d9e7163851d6f08be85f43a79}
+      \strng{bibnamehash}{c14ca11d9e7163851d6f08be85f43a79}
+      \strng{authorbibnamehash}{c14ca11d9e7163851d6f08be85f43a79}
+      \strng{authornamehash}{c14ca11d9e7163851d6f08be85f43a79}
+      \strng{authorfullhash}{c14ca11d9e7163851d6f08be85f43a79}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Atomic and nuclear properties of materials:Nitrogen gas}
+      \field{urlday}{6}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://pdg.lbl.gov/2011/AtomicNuclearProperties/HTML_PAGES/007.html
+      \endverb
+      \verb{url}
+      \verb http://pdg.lbl.gov/2011/AtomicNuclearProperties/HTML_PAGES/007.html
+      \endverb
+    \endentry
+    \entry{anleitungV16}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=7fd649578e209899def403a05cbd37c3}{%
+           family={Praktikum},
+           familyi={P\bibinitperiod},
+           given={TU\bibnamedelima Dortmund:\bibnamedelima Physikalisches},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{7fd649578e209899def403a05cbd37c3}
+      \strng{fullhash}{7fd649578e209899def403a05cbd37c3}
+      \strng{bibnamehash}{7fd649578e209899def403a05cbd37c3}
+      \strng{authorbibnamehash}{7fd649578e209899def403a05cbd37c3}
+      \strng{authornamehash}{7fd649578e209899def403a05cbd37c3}
+      \strng{authorfullhash}{7fd649578e209899def403a05cbd37c3}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Versuch 16: Rutherford Streuung}
+      \field{urlday}{13}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://129.217.224.2/HOMEPAGE/PHYSIKER/BACHELOR/FP/SKRIPT/Rutherford.pdf
+      \endverb
+      \verb{url}
+      \verb http://129.217.224.2/HOMEPAGE/PHYSIKER/BACHELOR/FP/SKRIPT/Rutherford.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

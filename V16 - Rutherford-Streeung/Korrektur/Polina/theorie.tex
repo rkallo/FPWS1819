@@ -1,0 +1,23 @@
+\section{Zielsetzung und Motivation}
+\label{sec:ZielsetzungundMotivation}
+Das Ziel dieses Versuchs ist es die Streuung von $\alpha$-Teilchen an einer Goldfolie zu bestimmen. Dafür wird der differentielle Wirkungsquerschnitt der Streuung an einer dünnen Goldfolie und die Abhängigkeit der Kernladungszahl $Z$ des Targetmaterials untersucht.
+Am Ende soll mittels einer Energieverlustmessung der $\alpha$-Teilchen auch die Foliendicke bestimmt werden.
+
+\section{Theorie}
+\label{sec:Theorie}
+Bei der Wechselwirkung von positiv geladenen $\alpha$-Teilchen durch Materie kann es zu zwei Effekten kommen. Zum einen können die $\alpha$-Teilchen mit dem Kern wechselwirken und werden dabei gestreut und zum anderen können sie mit den negativ geladenen Hüllenelektronen wechselwirken. Dabei verlieren sie Energie und werden langsamer. 
+
+\subsection{Bethe-Bloch-Gleichung}
+Bei der Wechselwirkung der $\alpha$-Teilchen mit dem Hüllenelektronen kommt es durch Ionisation oder Anregung der Atome oder Moleküle der durchstrahlten Materie zur Energieabgabe. Der Energieverlust pro Wegstrecke eines $\alpha$-Teilchens beim Durchqueren von Materie wird mittels Bethe-Bloch-Gleichung beschrieben:
+\begin{equation}
+\label{eq:bethebloch}
+-\frac{dE}{dx} = - \frac{4 \pi e^4 z^2 N Z}{m_0 v^2 (4\pi\epsilon_0)^2}\text{ln}\left(\frac{2 m_0 v^2}{I}\right),
+\end{equation}
+wobei $N$ die Atomdichte, $m_0$ die Ruhemasse eines Elektrons, $z$ die Ladungszahl des $\alpha$-Teilchens, $Z$ die Kernladungszahl des Targetmaterials, $I$ die mittlere Ionisationsenergie, $v$ die Geschwindigkeit des Ions und $E$ die Energie des Teilchens sind.
+
+\subsection{Rutherford Streuformel}
+Bei der Streuung der $\alpha$-Teilchen am Kern, erfahren sie durch die Coulombabstoßung eine Richtungsänderung um den Streuwinkel $\Theta$. Dieser Typ von Wechselwirkung lässt sich mit der Rutherfordschen Streuformel beschreiben:
+\begin{equation}
+\frac{d\sigma}{d\Omega}(\Theta) = \frac{1}{4 \pi \epsilon_0} \left(\frac{z Z e^2}{4 E_\alpha}\right)^2 \frac{1}{\text{sin}^4 \frac{\Theta}{2}},
+\end{equation}
+wobei $E_\alpha$ die mittlere kinetische Energie der $\alpha$-Teilchen und $\Theta$ den Winkel zwischen einfallendem und gestreutem $\alpha$-Teilchen beschreibt. Der differentielle Wirkungsquerschnitt $\frac{d\sigma}{d\Omega}$ gibt mit welcher Wahrscheinlichkeit für ein bestimmtes Teilchen an, in dem Raumwinkel $d\Omega$ gestreut zu werden.

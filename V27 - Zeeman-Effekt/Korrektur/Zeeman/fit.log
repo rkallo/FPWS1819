@@ -1,0 +1,40 @@
+
+
+*******************************************************************************
+Sat Nov 10 17:56:28 2018
+
+
+FIT:    data read from "bfeld.txt" using 1:2
+        format = x:z
+        #datapoints = 21
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x**3+b*x**2+c*x+d
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 1.6639761100e+08  0.00e+00 1.61e+03  1.000000e+00  1.000000e+00  1.000000e+00  1.000000e+00
+   6 7.0291741211e+02 -8.26e-01 1.61e-03 -5.600630e-02  8.685898e-01  5.719193e+01  1.622474e+01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 702.917
+rel. change during last iteration : -8.26031e-006
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.43025
+variance of residuals (reduced chisquare) = WSSR/ndf   : 41.3481
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -0.0560063       +/- 0.008147     (14.55%)
+b               = 0.86859          +/- 0.2481       (28.57%)
+c               = 57.1919          +/- 2.105        (3.681%)
+d               = 16.2247          +/- 4.743        (29.23%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -0.985  1.000 
+c               0.906 -0.963  1.000 
+d              -0.587  0.678 -0.820  1.000 

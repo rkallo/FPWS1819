@@ -1,0 +1,32 @@
+\section{Diskussion}
+\label{sec:Diskussion}
+In Tabelle \ref{tab:exptheo} sind vergleichend Werte für die Debye-Temperaturen aus Literatur \cite{DebyeTemperaturKupfer}, theoretisch berechneten und aus Messwerten berechneten aufgeführt und die prozentuale Abweichung zwischen experimentell bestimmten Werten und den Werten aus der Literatur.
+
+\begin{table}[htpb]
+	\centering
+	\caption{Vergleich zwischen Werten für die Debye-Temperaturen aus Literatur, theoretisch berechneten und aus Messwerten berechneten. Die Abweichung zwischen Literaturwert und experimentell bestimmten in Prozent.}
+	\label{tab:exptheo}
+	\begin{tabular}{rrrrr}
+		\toprule
+		$\theta_\text{D,lit}/\si{\kelvin}$ & $\theta_\text{D,exp}/\si{\kelvin}$ & Abweichung $/\si{\percent}$ & $\theta_\text{D,theo}/\si{\kelvin}$ & Abweichung $/\si{\percent}$ \\
+		\hline
+		345 & $354,79 \pm 88,02$ & 2,54 & 332,18 & 6,37 \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+Der Literaturwert für die Debye-Temperatur von Kupfer liegt bei $\SI{345}{\kelvin}$. Das experimentelle Ergebnis weicht davon zu $\SI{2,54}{\percent}$, wohingegen der theoretisch bestimmte Wert nur um $\SI{6,37}{\percent}$ abweicht. Zu dem experimentellen Wert liegt ein relativer Fehler von $\SI{24,80}{\percent}$ und ist damit deutlich größer als die Abweichungen vom Theorie- und Literaturwert. Für die Entstehung dieser Abweichungen werden unten mögliche Fehlerquellen beschrieben.
+
+Zuerst gibt es in der Tabelle \ref{tab:messwerte} eine kleine Temperaturdifferenz zwischen der Temperatur der Probe und des Kupfer-Zylinders. Die Temperaturunterschiede zwischen den Messungen hätten bei $\SI{7}{\kelvin}$ bis $\SI{11}{\kelvin}$ liegen müssen. Die Abweichungen hiervon haben sich dadurch ergeben ist, dass es schwierig war, ein konstant gleiches Erwärmen des Kupfer-Zylinders und der Probe zu gewährleisten. Dies lag daran, dass das Aufheizen des Kupfer-Zylinders langsam verlief. Das langsame Aufheizen kann so erklärt werden, dass am Anfang vergessen wurde das Helium abzupumpen, um den Wärmeverlust der Probe z.B. durch Konvektion über die Gasmoleküle zu verhindern bzw. zu minimieren. Jedoch können Wärmeverluste durch Wärmestrahlung nicht verhindert werden, weshalb der Kupfer-Zylinder die gleiche Temperatur wie die Probe aufweisen sollte. Helium ist ein guter Wärmeleiter und es wird verwendet, da das in Luft enthaltende Wasser bei tiefen Temperaturen bei ca. $\SI{273,15}{\kelvin}$ gefrieren würde, Helium hingegen besitzt einen Schmelzpunkt von $\SI{0,95}{\kelvin}$. Zudem werden die Spannungs- und Stromgeräte manuell verstellt, wodurch der Zylinder und die Probe in unregelmäßigen Zeitintervallen erhitzt wurden. Außerdem ergeben sich noch andere Fehler wie z.B. weil vergessen wurde die Stoppuhr zu starten sowie Stickstoff nachzufüllen.
+
+Für die Berechnung der spezifischen Molwärme von Kupfer(s. Tabelle \ref{fig:cvt2}) haben sich sehr große Werte ergeben. Zuerst wurde die Molwärme bei konstantem Druck berechnet, wobei es sich hier abweichende Ergebnisse ergeben haben. Mögliche Ursachen für die Entstehung der abweichenden Ergebnisse sind die Temperaturdifferenz $\Delta T$, die am Anfang der Messung sehr klein war, die Zeitdifferenz $\Delta t$, die viel zu lang für die Messung war und der Strom $I$. Während des Messvorgangs wird der Probe über die Heizwicklung elektrische Energie in Form von Wärme hinzugeführt. Die zugefügte Energie ist abhängig von dem anliegendem Strom, der Spannung und Heizzeit. Da der Strom bei jeder einzelnen Messung geändert wird, wird die zugeführte Leistung nicht mehr über $P = U \cdot I$ berechnet, weil der Strom dann auch nicht für die $\SI{300}{\second}$ konstant ist. Weil $C_\text{V}$ nach Gleichung \ref{eq:spezmolwärme} abhängig von $C_\text{P}$ ist, ergibt sich auch eine ähnlich große Abweichung, die auch in der Abbildung \ref{fig:cvt2} ersichtlich ist. Bei dem Plot ist zu sehen, dass die erste Hälfte der Messung(im Bereich von $\SI{88}{\kelvin}$ bis $\SI{127}{\kelvin}$) sehr viel von den am Ende gemessenen Werte abweicht. Es lässt sich nicht erkennen, dass die berechneten Werte dem universellen Wert $3R$ entsprechen, der aus dem klassischen und dem Einstein-Modell folgt.
+ 
+Die Abbildung \ref{fig:tgegenzeit} stellt die Messdaten der gemessenen Temperaturen $T$ in Abhängigkeit der Zeit $t$ dar. Hier ist zu erkennen, dass der Anfang die Messung ein konstanter Verlauf zeigt und sich erst gegen Ende ein zunehmender Verlauf der Temperaturen ergibt. Dadurch dass es am Anfang nur konstante Werte für die Temperatur gab, haben sich auch nur kleine Temperaturdifferenzen ergeben. 
+
+Trotz der vielen Fehlerquellen hat sich letztendlich ein guter experimenteller Wert für die Debye-Temperatur ergeben. Es wurden nur bestimmte Werte aus der Abbildung \ref{fig:debyetemperatur} abgelesen, da für größere Werte als $> 24,9$ die zugehörigen $\frac{\theta_\text{D}}{T}$ nicht mehr angegeben waren. Hier sollte ja nur einen bestimmten Bereich für die Temperaturen betrachtet werden und zwar von $\SI{80}{\kelvin}$ bis $\SI{170}{\kelvin}$. Deshalb haben sich in der Tabelle \ref{tab:thetad} nur 7 möglichen Werte ergeben, die weiterhin in die Abbildung \ref{fig:debye} gegen die Temperatur aufgetragen wurden. Hier ist auch nicht zu erkennen, dass die Werte für die Debye-Temperatur auf einer geraden parallel zur x-Achse liegen. Ein Vorschlag wäre z.B. den ganzen Bereich zu betrachten, also die Temperaturen von $\SI{80}{\kelvin}$ bis $\SI{300}{\kelvin}$ um eine bessere Aussage für die Debye-Temperatur zu treffen.
+
+Außerdem ist der Messaufbau nicht komplett gegen äußere Einflüsse abgeschirmt, da das Dewargefäß nach oben offen war und so ein Austausch der Luft stattfinden konnte, die die Probe umgibt, was zu einer schnelleren Erwärmung der Probe führt. Weitere Fehlerquellen, die bei der Berechnung nicht berücksichtigt wurden, sind Ungenauigkeiten der Widerstandsmessung, über die sich dann die Temperatur berechnet. Dieser Fehler ist allerdings klein im Gegensatz zu den oben beschriebenen Problemen, deshalb wird sie bei der Berechnung auch vernachlässigt.
+
+Abschließend lässt sich sagen, dass der Versuch zur Bestimmung der Molwärme von Kupfer geeignet ist und sollte jedoch verstärkt darauf geachtet werden, dass das Gehäuse und die Probe etwa dieselbe Temperatur haben, damit es nicht zu größeren Abweichungen kommt.
+
+%Debye-Temperatur 88,02K kommentieren

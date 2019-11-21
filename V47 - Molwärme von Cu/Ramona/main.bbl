@@ -1,0 +1,263 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{AvogradoKonstante}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=12630657802654764d197ee70ab3f6d1}{%
+           family={Chemie.de},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{12630657802654764d197ee70ab3f6d1}
+      \strng{fullhash}{12630657802654764d197ee70ab3f6d1}
+      \strng{bibnamehash}{12630657802654764d197ee70ab3f6d1}
+      \strng{authorbibnamehash}{12630657802654764d197ee70ab3f6d1}
+      \strng{authornamehash}{12630657802654764d197ee70ab3f6d1}
+      \strng{authorfullhash}{12630657802654764d197ee70ab3f6d1}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{AvogradoKonstante}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.chemie.de/lexikon/Avogadro-Konstante.html
+      \endverb
+      \verb{url}
+      \verb http://www.chemie.de/lexikon/Avogadro-Konstante.html
+      \endverb
+    \endentry
+    \entry{DebyeTemperaturKupfer}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=12630657802654764d197ee70ab3f6d1}{%
+           family={Chemie.de},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{12630657802654764d197ee70ab3f6d1}
+      \strng{fullhash}{12630657802654764d197ee70ab3f6d1}
+      \strng{bibnamehash}{12630657802654764d197ee70ab3f6d1}
+      \strng{authorbibnamehash}{12630657802654764d197ee70ab3f6d1}
+      \strng{authornamehash}{12630657802654764d197ee70ab3f6d1}
+      \strng{authorfullhash}{12630657802654764d197ee70ab3f6d1}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Debye-Modell}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.chemie.de/lexikon/Debye-Modell.html
+      \endverb
+      \verb{url}
+      \verb http://www.chemie.de/lexikon/Debye-Modell.html
+      \endverb
+    \endentry
+    \entry{AtommasseKupfer}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=12630657802654764d197ee70ab3f6d1}{%
+           family={Chemie.de},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{12630657802654764d197ee70ab3f6d1}
+      \strng{fullhash}{12630657802654764d197ee70ab3f6d1}
+      \strng{bibnamehash}{12630657802654764d197ee70ab3f6d1}
+      \strng{authorbibnamehash}{12630657802654764d197ee70ab3f6d1}
+      \strng{authornamehash}{12630657802654764d197ee70ab3f6d1}
+      \strng{authorfullhash}{12630657802654764d197ee70ab3f6d1}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Kupfer}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.chemie.de/lexikon/Kupfer.html
+      \endverb
+      \verb{url}
+      \verb http://www.chemie.de/lexikon/Kupfer.html
+      \endverb
+    \endentry
+    \entry{KompressionsmodulKupfer}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=9065df87f119d90d95d857dd67df5ad0}{%
+           family={Goodfellow},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{9065df87f119d90d95d857dd67df5ad0}
+      \strng{fullhash}{9065df87f119d90d95d857dd67df5ad0}
+      \strng{bibnamehash}{9065df87f119d90d95d857dd67df5ad0}
+      \strng{authorbibnamehash}{9065df87f119d90d95d857dd67df5ad0}
+      \strng{authornamehash}{9065df87f119d90d95d857dd67df5ad0}
+      \strng{authorfullhash}{9065df87f119d90d95d857dd67df5ad0}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Kupfer - Materialinformationen}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.goodfellow.com/G/Kupfer.html
+      \endverb
+      \verb{url}
+      \verb http://www.goodfellow.com/G/Kupfer.html
+      \endverb
+    \endentry
+    \entry{Vergleichder3Modelle}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=b872b35177588e31a4b1ce6461502a8b}{%
+           family={Leffel},
+           familyi={L\bibinitperiod},
+           given={Siegfried},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b872b35177588e31a4b1ce6461502a8b}
+      \strng{fullhash}{b872b35177588e31a4b1ce6461502a8b}
+      \strng{bibnamehash}{b872b35177588e31a4b1ce6461502a8b}
+      \strng{authorbibnamehash}{b872b35177588e31a4b1ce6461502a8b}
+      \strng{authornamehash}{b872b35177588e31a4b1ce6461502a8b}
+      \strng{authorfullhash}{b872b35177588e31a4b1ce6461502a8b}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Thermische Eigenschaften von Werkstoffen}
+      \field{urlday}{2}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://slideplayer.org/slide/209739/
+      \endverb
+      \verb{url}
+      \verb https://slideplayer.org/slide/209739/
+      \endverb
+    \endentry
+    \entry{anleitungV47}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=7fd649578e209899def403a05cbd37c3}{%
+           family={Praktikum},
+           familyi={P\bibinitperiod},
+           given={TU\bibnamedelima Dortmund:\bibnamedelima Physikalisches},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{7fd649578e209899def403a05cbd37c3}
+      \strng{fullhash}{7fd649578e209899def403a05cbd37c3}
+      \strng{bibnamehash}{7fd649578e209899def403a05cbd37c3}
+      \strng{authorbibnamehash}{7fd649578e209899def403a05cbd37c3}
+      \strng{authornamehash}{7fd649578e209899def403a05cbd37c3}
+      \strng{authorfullhash}{7fd649578e209899def403a05cbd37c3}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Versuch 47: Temperaturabhängigkeit der Molwärme von Festkörpern}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://129.217.224.2/HOMEPAGE/PHYSIKER/BACHELOR/FP/SKRIPT/V47.pdf
+      \endverb
+      \verb{url}
+      \verb http://129.217.224.2/HOMEPAGE/PHYSIKER/BACHELOR/FP/SKRIPT/V47.pdf
+      \endverb
+    \endentry
+    \entry{DichteKupfer}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=b4586c8a006b85e8beeedd3979ec6876}{%
+           family={Schulmodell},
+           familyi={S\bibinitperiod},
+           given={Chemnitzer},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{b4586c8a006b85e8beeedd3979ec6876}
+      \strng{fullhash}{b4586c8a006b85e8beeedd3979ec6876}
+      \strng{bibnamehash}{b4586c8a006b85e8beeedd3979ec6876}
+      \strng{authorbibnamehash}{b4586c8a006b85e8beeedd3979ec6876}
+      \strng{authornamehash}{b4586c8a006b85e8beeedd3979ec6876}
+      \strng{authorfullhash}{b4586c8a006b85e8beeedd3979ec6876}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Dichte fester Stoffe}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.schulmodell.eu/index.php/physik/503-dichte-fester-stoffe.html
+      \endverb
+      \verb{url}
+      \verb https://www.schulmodell.eu/index.php/physik/503-dichte-fester-stoffe.html
+      \endverb
+    \endentry
+    \entry{BoltzmannKonstante}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=47ad8241758f62df54ac81c14caffd05}{%
+           family={Spektrum.de},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{47ad8241758f62df54ac81c14caffd05}
+      \strng{fullhash}{47ad8241758f62df54ac81c14caffd05}
+      \strng{bibnamehash}{47ad8241758f62df54ac81c14caffd05}
+      \strng{authorbibnamehash}{47ad8241758f62df54ac81c14caffd05}
+      \strng{authornamehash}{47ad8241758f62df54ac81c14caffd05}
+      \strng{authorfullhash}{47ad8241758f62df54ac81c14caffd05}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Lexikon der Physik: Boltzmann-Konstante}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.spektrum.de/lexikon/physik/boltzmann-konstante/1844
+      \endverb
+      \verb{url}
+      \verb https://www.spektrum.de/lexikon/physik/boltzmann-konstante/1844
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,56 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{anleitungV16}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=7fd649578e209899def403a05cbd37c3}{%
+           family={Praktikum},
+           familyi={P\bibinitperiod},
+           given={TU\bibnamedelima Dortmund:\bibnamedelima Physikalisches},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{7fd649578e209899def403a05cbd37c3}
+      \strng{fullhash}{7fd649578e209899def403a05cbd37c3}
+      \strng{bibnamehash}{7fd649578e209899def403a05cbd37c3}
+      \strng{authorbibnamehash}{7fd649578e209899def403a05cbd37c3}
+      \strng{authornamehash}{7fd649578e209899def403a05cbd37c3}
+      \strng{authorfullhash}{7fd649578e209899def403a05cbd37c3}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Versuch 16: Rutherford Streuung}
+      \field{urlday}{13}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://129.217.224.2/HOMEPAGE/PHYSIKER/BACHELOR/FP/SKRIPT/Rutherford.pdf
+      \endverb
+      \verb{url}
+      \verb http://129.217.224.2/HOMEPAGE/PHYSIKER/BACHELOR/FP/SKRIPT/Rutherford.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
